@@ -14,7 +14,7 @@ J = 0;
 
 h = X*theta;
 cost = sum(h-y);
-J = 1/(2*m)*cost;
+J = (1/(2*m))*cost^2;
 %Jfirst = 1/(2*m);
 %disp(Jfirst);
 
