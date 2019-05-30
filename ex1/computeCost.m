@@ -13,8 +13,8 @@ J = 0;
 %               You should set J to the cost.
 
 h = X*theta;
-cost = sum(h-y);
-J = (1/(2*m))*cost^2;
+cost = sum((h-y).^2);
+J = (1/(2*m))*cost;
 %Jfirst = 1/(2*m);
 %disp(Jfirst);
 
