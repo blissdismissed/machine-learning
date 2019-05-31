@@ -15,13 +15,6 @@ J = 0;
 h = X*theta;
 cost = sum((h-y).^2);
 J = (1/(2*m))*cost;
-%Jfirst = 1/(2*m);
-%disp(Jfirst);
-
-%Jsecond = X*theta;
-%disp(Jsecond);
-
-%J = Jfirst;
 
 
 
