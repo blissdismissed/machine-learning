@@ -20,6 +20,8 @@ for iter = 1:num_iters
 
     % need to modify theta not X and y
     % plot J(theta) to monitor progress
+    
+    theta = theta - alpha*1/m*Sum((h(x)-y)*x);
 
 
 
