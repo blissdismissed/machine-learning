@@ -28,7 +28,7 @@ for iter = 1:num_iters
     theta(1)= theta_temp1;
     theta(2)= theta_temp2;
     
-    fprintf('Theta computed from gradient descent:\n%f,\n%f\n',theta(1),theta(2))
+    %fprintf('Theta computed from gradient descent:\n%f,\n%f\n',theta(1),theta(2))
     
     
 
